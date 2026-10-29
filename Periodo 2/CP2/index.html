@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="/Periodo 2/CP2/style.css" rel="stylesheet">
+</head>
+<body>
+    <main class="calculo-super">
+        <h1>Cálculo de compras</h1>
+
+    <div class="entrada">
+        <input type="number" id="num1" placeholder="Valor" />
+        <input type="qtd" id="num2" placeholder="Quantidade" />
+    </div>
+    <p id='resultado'>Resultado: </p>
+
+    <div class="botao">
+        <button onclick="calcular()"> Calcular</button>
+    </div>
+    </main>
+    <script>
+        function calcular(){
+            let num1 = Number(document.getElementById('num1').value);
+            let num2 = Number(document.getElementById('num2').value);
+            let resultado = num1 * num2;
+            document.getElementById('resultado').innerText = 'Resultado da compra: ' + resultado;
+        }
+    </script>
+</body>
+</html>
