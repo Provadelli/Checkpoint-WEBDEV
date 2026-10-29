@@ -1,0 +1,47 @@
+/* Estilo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+/* Div que contém o botão e a imagem */
+div {
+    margin-top: 30px;
+}
+
+/* Botão */
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Imagem */
+img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #bbb;
+}
